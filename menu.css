@@ -1,0 +1,86 @@
+/* Header */
+header{
+    text-align: center;
+}
+
+/* BODY */
+body {
+    background-image: Linear-gradient(79deg, #7439db, #c66fbc 48%, #f7944d);
+}
+/* Advertising pictures */
+.pictures{
+    height: 320px;
+    width: 240px;
+    border-radius: 10px;
+}
+
+.demo {
+    display: inline-block;
+    margin-right: 60px;
+    margin-left: 60px;
+}
+/* The actual menu */
+
+.menu {
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.food_items {
+    display: inline-block;
+    margin-right: 400px;
+}
+
+.brg_imgs, .pza_imgs, .swts_imgs {
+    height: 320px;
+    width: 240px;
+    border-radius: 10px;
+}
+#burger-cont{
+    display:inline-block;
+    background-image:url('burger-4k-amazing-wallpaper-preview.jpg');
+    background-position: center;
+    min-height: 100%;
+    min-width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    color:black;
+    margin-bottom: 100px;
+}
+#pizza-cont{
+    background-image:url('pizza-background-bv8lc971lobg1sx4.jpg');
+    background-position: center;
+    min-height: 100vh;
+    min-width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-bottom: 100px;
+}
+#dessert-cont{
+    background-image:url('assorted-cakes-and-cookies-dessert-s3nugcazto0oqwru.jpg');
+    background-position: center;
+    min-height: 100vh;
+    min-width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    color:black;
+    margin-bottom: 100px;
+    justify-content: center;
+    
+}
+.fd_itm_lbl {
+    font-size: 40px;
+}
+.food_items{
+    line-height: 25px;
+}
+#main_menu{
+    padding-left: 65px;
+}
+.ind_fd_itm {
+    background-color: white;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 10px;
+    font-weight: 5px;
+}

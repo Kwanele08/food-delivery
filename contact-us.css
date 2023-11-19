@@ -1,0 +1,13 @@
+body {
+    background-image: url('Dirty\ Chai\ Latte\ Recipe\ _\ Dairyland.jpg');
+    background-position: center;
+    background-size: cover;
+    color:black;
+    display: flexbox;
+    justify-content: center;
+    width:100%;
+    min-height: 100vh;
+    text-align: center;
+    padding-top: 100px;
+    line-height: 45px;
+}

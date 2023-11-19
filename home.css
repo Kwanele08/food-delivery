@@ -1,0 +1,98 @@
+/* Navbar */
+#navcontent {
+    list-style-type: none;
+    margin: 0;
+    padding: 30px;
+    overflow: hidden;
+    background-color: #333;
+}
+#navbar{
+    width:100%;
+    overflow: hidden;
+    top: 0;
+    border-radius: 10px;
+}
+
+li {
+    display: inline;
+    padding: 8px;
+}
+li a {
+    text-decoration: none;
+    color: white;
+    padding: 14px 16px;
+}
+li a:hover {
+    background-color: #111;
+}
+/* nav bar ends here*/
+
+/* Body */
+body {
+    background-image: Linear-gradient(79deg, #7439db, #c66fbc 48%, #f7944d);
+}
+
+/* food potrait*/
+#food-potriate{
+    background: url('1891\ Landing\ Page\ Templates\ _\ Responsive\ Landing\ Pages\ 2023.jfif');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    justify-content: center;
+    width:100%;
+    min-height: 100vh;
+    border-radius: 10px;
+}
+
+/* Header */
+h1{
+    text-align: center;
+}
+
+/* Specials */
+
+#food-to-order{
+    background-image: url('download\ \(1\).jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    justify-content: center;
+    width:100%;
+    min-height: 100vh;
+    color: black;
+    border-radius: 10px;
+}
+.specials {
+    display: inline-block;
+    margin-right: 60px;
+    margin-left: 60px;
+    padding-top: 20px;
+    border-radius: 10px;
+    background-color: white;
+}
+/*pictures of the special means*/
+.specials-pics {
+    height: 320px;
+    width: 240px;
+    border-radius: 10px;
+}
+
+.specials-pics .order-btn {
+    display: list-item;
+}
+/*the menu button, takes user to the main menu*/
+#menu-btn {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    border-radius: 10px;
+}
+
+/* Footer */
+footer {
+    background-color: lightblue;
+    border-radius: 10px;
+}
+#reviews{
+    line-height: 20px;
+}

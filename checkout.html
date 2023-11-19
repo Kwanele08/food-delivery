@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="checkout.css">
+</head>
+<body>
+    <h1>WELCOME !</h1>
+    <form id="checkout">
+        <!--Account management-->
+        <fieldset>
+            <legend>Account</legend>
+            <label>Phone number:<input placeholder="Phone number" required></label>
+        </fieldset>
+        <!--delivery address-->
+        <fieldset>
+            <legend>Delivery</legend>
+            <label>Delivery address:<input id="dlvry" placeholder="Delivery adress" required></label>
+        </fieldset>
+        <!--Payment-->
+        <fieldset>
+            <legend>Payment</legend>
+            <label for="query">
+                Type of Payment
+            </label>
+            <select name="mypayment" id="payment">
+                <option value="sel" selected>
+                    Select
+                </option>
+                <option value="cash">
+                    Cash on Delivery
+                </option>
+                <option value="upi">
+                    UPI(Unified payments Interface)
+                </option>
+                <option value="debit-card">
+                    Debit card
+                </option>
+                <option value="credit-card">
+                    Credit card
+                </option>
+            </select>
+        </fieldset>
+        <br>
+        <div id="sub-btn">
+            <button type="submit">Submit</button><br>
+        </div>
+    </form>
+</body>
+</html>

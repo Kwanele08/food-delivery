@@ -1,0 +1,20 @@
+form{
+    line-height: 50px;
+    padding-top: 30px;
+}
+#sub-btn{
+    text-align: center;
+}
+h1{
+    padding-top: 30px;
+    text-align: center;
+}
+body{
+    background: url('3\ Summer\ Smoothies\ to\ Keep\ You\ Healthy\,\ Full\ and\ Focused\ -\ Wit\ &\ Delight\ _\ Designing\ a\ Life\ Well-Lived.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    justify-content: center;
+    width:100%;
+    min-height: 100vh;
+}
